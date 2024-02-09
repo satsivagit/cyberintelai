@@ -6,6 +6,19 @@ st.sidebar.write("This is developed by Sathish Sivaprakash
 Please Note : This is under development - Thanks for Understanding.
                  ")
 
+st.markdown(
+     """
+     <style>
+     body {
+     background-color: #333;
+     color: #fff;
+     padding: 2rem;
+     }
+     </style>
+     """,
+     unsafe_allow_html=True
+)
+
 # Add elements to the main app area
 st.write("Welcome to the main app area")
 
