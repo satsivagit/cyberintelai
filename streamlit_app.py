@@ -17,9 +17,6 @@ st.markdown(
      unsafe_allow_html=True
 )
 
-# Add elements to the main app area
-st.write("Welcome to the main app area")
-
 # Set the title of the app
 st.title('Welcome to CyberIntelai')
 
