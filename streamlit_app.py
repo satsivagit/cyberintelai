@@ -1,6 +1,14 @@
 import streamlit as st
 
-slider_value = st.slider('Select a number:', 0, 100, 50)
+# Create a layout with a sidebar
+st.beta_set_page_config(layout="wide")
+
+# Add elements to the sidebar
+st.sidebar.title("Sidebar")
+st.sidebar.write("This is the sidebar")
+
+# Add elements to the main app area
+st.write("Welcome to the main app area")
 
 # Set the title of the app
 st.title('Welcome to CyberIntelai')
