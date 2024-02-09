@@ -36,14 +36,11 @@ year_option = st.selectbox(
 )
 
 button1 = st.button("Button 1", key="button1")
-button2 = st.button("Button 2", key="button2")
 
 # Check if any button was clicked
 if button1:
-    # Display a message for button 1
-    st.write("You clicked button 1!")
      st.markdown(f"the value you selected is **{attack_option}** and **{year_option}**)
-elif button2:
+else:
     # Display a message for button 2
     st.write("please click button 1")
 
