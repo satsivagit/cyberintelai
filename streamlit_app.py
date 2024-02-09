@@ -2,9 +2,7 @@ import streamlit as st
 
 # Add elements to the sidebar
 st.sidebar.title("Welcome to CyberIntelai")
-st.sidebar.write("This is developed by Sathish Sivaprakash
-Please Note : This is under development - Thanks for Understanding.
-                 ")
+st.sidebar.write("This is developed by Sathish Sivaprakash - Please Note : This is under development - Thanks for Understanding.")
 
 st.markdown(
      """
