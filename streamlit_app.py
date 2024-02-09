@@ -12,6 +12,12 @@ attack_option = st.selectbox(
     ('Ransomware', 'Malware', 'Threat Actor Campaign','Phishing Campiagn','DDOS')
 )
 
+# year of Attack input field
+year_option = st.selectbox(
+    'Select an option:',
+    ('2020', '2021', '2022','2023','2024')
+)
+
 # Create a text input field
 user_input = st.text_input("Enter some text:")
 
