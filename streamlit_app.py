@@ -39,7 +39,7 @@ button1 = st.button("Button 1", key="button1")
 
 # Check if any button was clicked
 if button1:
-     st.markdown(f"the value you selected is **{attack_option}** and **{year_option}**)
+     st.markdown(f"the value you selected is **{attack_option}** and **{year_option}**")
 else:
     # Display a message for button 2
     st.write("please click button 1")
