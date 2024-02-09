@@ -1,5 +1,7 @@
 import streamlit as st
 
+slider_value = st.slider('Select a number:', 0, 100, 50)
+
 # Set the title of the app
 st.title('Welcome to CyberIntelai')
 
