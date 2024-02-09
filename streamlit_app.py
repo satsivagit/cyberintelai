@@ -1,8 +1,10 @@
 import streamlit as st
 
 # Add elements to the sidebar
-st.sidebar.title("Sidebar")
-st.sidebar.write("This is the sidebar")
+st.sidebar.title("Welcome to CyberIntelai")
+st.sidebar.write("This is developed by Sathish Sivaprakash
+Please Note : This is under development - Thanks for Understanding.
+                 ")
 
 # Add elements to the main app area
 st.write("Welcome to the main app area")
