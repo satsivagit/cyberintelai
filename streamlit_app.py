@@ -35,7 +35,7 @@ year_option = st.selectbox(
     ('2020', '2021', '2022','2023','2024')
 )
 
-button1 = st.button("Button 1", key="button1")
+button1 = st.button("Search", key="button1")
 
 # Check if any button was clicked
 if button1:
