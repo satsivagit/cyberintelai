@@ -24,9 +24,3 @@ year_option = st.selectbox(
     'Select Year of Attack:',
     ('2020', '2021', '2022','2023','2024')
 )
-
-# Create a text input field
-user_input = st.text_input("Enter some text:")
-
-# Display the user input back to the front-end
-st.write("You entered:", user_input)
