@@ -1,8 +1,5 @@
 import streamlit as st
 
-# Create a layout with a sidebar
-st.beta_set_page_config(layout="wide")
-
 # Add elements to the sidebar
 st.sidebar.title("Sidebar")
 st.sidebar.write("This is the sidebar")
