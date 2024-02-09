@@ -1,10 +1,16 @@
 import streamlit as st
 
 # Set the title of the app
-st.title('My Streamlit App')
+st.title('Welcome to CyberIntelai')
 
 # Display some text on the front-end
-st.write('Welcome Cyber Threat Intelligence')
+st.write('We will help you to provide the maximum information')
+
+# Type of Attack input field
+attack_option = st.selectbox(
+    'Select an option:',
+    ('Ransomware', 'Malware', 'Threat Actor Campaign','Phishing Campiagn','DDOS')
+)
 
 # Create a text input field
 user_input = st.text_input("Enter some text:")
